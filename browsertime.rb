@@ -2,8 +2,8 @@ require 'formula'
 
 class Browsertime < Formula
   homepage 'http://browsertime.net'
-  url 'file://browsertime-0.3-SNAPSHOT-distribution.zip'
-  sha1 '2bf3d7e978a23f08a7f8e4fa584b667c19f2744b'
+  url 'https://github.com/tobli/browsertime/releases/download/browsertime-0.3/browsertime-0.3.zip'
+  sha1 '82ad5cad81eacf9641227c94ac51a717d841f644'
 
   def install
     # Remove windows files
