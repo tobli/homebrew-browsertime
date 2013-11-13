@@ -10,7 +10,7 @@ class Browsertime < Formula
   def install
     # Remove windows files
     rm_f Dir["bin/*.bat"]
-    
+
     prefix.install_metafiles
     libexec.install Dir['*']
     bin.install_symlink Dir["#{libexec}/bin/*"]
