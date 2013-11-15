@@ -2,8 +2,8 @@ require 'formula'
 
 class Browsertime < Formula
   homepage 'http://browsertime.net'
-  url 'https://github.com/tobli/browsertime/releases/download/browsertime-0.3/browsertime-0.3.zip'
-  sha1 '82ad5cad81eacf9641227c94ac51a717d841f644'
+  url 'https://github.com/tobli/browsertime/releases/download/browsertime-0.4/browsertime-0.4.zip'
+  sha1 'b62d3b5eff94a0ab04c8359dfd36086f7573c8ac'
 
   depends_on 'chromedriver'
 
